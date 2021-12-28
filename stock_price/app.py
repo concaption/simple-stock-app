@@ -5,9 +5,7 @@ import datetime as dt
 
 
 st.title("Stock Price App")
-st.write("""
-         Shown are the stock prices of the selected stock.
-         """)
+
 
 
 ticker_symbol = st.sidebar.selectbox("Which stoock would you like to keep track of?", ('AAPL','MSFT','GOOG','FB','AMZN','TSLA','OTHER'))
@@ -29,6 +27,9 @@ if end_date > start_date:
 else:
     st.sidebar.error('Error: End date must fall after start date.')
 
+
+caption = 'Stock prices for %s from %s to %s' % (ticker_symbol, start_date, end_date)
+st.write(caption)
 
 st.line_chart(ticker_dataframe.Close)
 st.line_chart(ticker_dataframe.Open)
