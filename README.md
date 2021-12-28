@@ -24,7 +24,7 @@ streamlit run app.py
 ## Author
 You can get in touch with me on my LinkedIn Profile:
 
-#### Saad Hassan
+#### Usama Navid
 [![LinkedIn Link](https://img.shields.io/badge/Connect-concaption-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
 )](https://www.linkedin.com/in/concaption)
 
