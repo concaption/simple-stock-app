@@ -4,7 +4,7 @@ import pandas as pd
 import datetime as dt
 
 
-st.title("Stock Price App")
+st.title("Simple Stock App")
 
 
 
